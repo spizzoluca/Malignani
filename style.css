@@ -1,0 +1,207 @@
+
+
+body {
+    background-color: #f1f5f9;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 30px 20px;
+
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #0b0e13;
+    line-height: 1.65;
+}
+
+/* Contenitore principale dei contenuti */
+
+main {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+
+/* ==============================
+   INTESTAZIONE E LOGO
+   ============================== */
+
+/* Dispone il logo e il testo uno accanto all'altro */
+
+.intestazione {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+
+    background-color: #f8fafb;
+    padding: 15px 30px;
+
+    border-radius: 12px;
+    border: 2px solid #1b365d;
+    margin-bottom: 25px;
+}
+
+/* Imposta le dimensioni del logo */
+
+.logo {
+    width: 175px;
+    height: auto;
+    border-radius: 12px;
+}
+
+
+/* ==============================
+   MENU DI NAVIGAZIONE
+   ============================== */
+
+nav {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* Stile dei collegamenti del menu */
+
+nav a {
+    display: inline-block;
+    padding: 7px 15px;
+    margin: 0 6px;
+
+    background-color: #1b365d;
+    color: white;
+
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* ==============================
+   TITOLI E TESTI
+   ============================== */
+
+/* Titolo principale della pagina */
+
+h1 {
+    font-size: 2rem;
+    color: #1b365d;
+    text-align: center;
+}
+
+/* Titoli delle sezioni principali */
+
+h2 {
+    font-size: 1.5rem;
+    color: #1b365d;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+/* Titoli delle sottosezioni */
+
+h3 {
+    font-size: 1.15rem;
+    color: #1b365d;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+/* Aspetto dei paragrafi */
+
+p {
+    font-size: 1.05rem;
+    margin-bottom: 18px;
+}
+
+
+/* ==============================
+   BLOCCHI CON TESTO E IMMAGINI
+   ============================== */
+
+/* Affianca il testo alle immagini */
+
+.blocco-mappa-affiancata,
+.blocco-sezione-affiancata {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+/* Colonna contenente il testo */
+
+.testo-affiancato {
+    flex: 1.3;
+}
+
+
+/* ==============================
+   IMMAGINI DELLE SEZIONI
+   ============================== */
+
+/* Colonna delle immagini */
+
+.immagine-sezione {
+    flex: 0.7;
+}
+
+/* Immagini degli indirizzi di studio */
+
+.immagine-sezione img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+}
+
+/* Colonna dedicata alla mappa e alle sedi */
+
+.immagine-sedi {
+    flex: 1;
+}
+
+/* Immagine delle sedi */
+
+.immagine-sedi img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+}
+
+/* Colonna dell'immagine relativa agli Open Days */
+
+.conferenza {
+    flex: 0.6;
+}
+
+/* Immagine delle conferenze */
+
+.conferenza img {
+    width: 100%;
+    height: auto;
+
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+    margin-top: 20px;
+}
+
+/* Limita la dimensione dell'immagine dell'iscrizione */
+
+.icona-iscrizione {
+    max-width: 200px;
+}
+
+
+/* ==============================
+   PIE' DI PAGINA
+   ============================== */
+
+footer {
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.9rem;
+    color: #64748b;
+    line-height: 1.6;
+}
